@@ -6,6 +6,13 @@
     height: cover;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
 :root {
     --gelap: #170b17;
     --cerah: #fde2d7;
@@ -110,10 +117,12 @@ input {
 
 .container-karakter {
     background-color: var(--cerah);
+    height: 100%;
 }
 
 #karakter {
     background-color: var(--cerah);
+    width: 100%;
 }
 
 .container-pertanyaan {
@@ -121,21 +130,23 @@ input {
     align-items: center;
     justify-content: center;
     background-color: var(--gelap);
-    width: 40vh;
-    height: 7vh;
+    width: 80%;
+    min-height: 3em;
+    max-height: 5em;
     border-radius: 3px;
     padding: 1vh;
+    position: relative;
 }
 
 #pertanyaan {
     background-color: var(--cerah-semi);
     color: var(--gelap);
-    width: 38vh;
-    max-height: 6vh;
+    width: 95%;
+    max-height: 4.8em;
     display: flex;
     align-items: center;
     border-radius: 3px;
-    font-size: auto;
+    font-size: 80%;
     padding: 5px;
     
 }
