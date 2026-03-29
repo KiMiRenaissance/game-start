@@ -15,7 +15,10 @@
             <div class="container">
                 <div class="wrapper">
                     <div class="container-karakter">
-                        <img id="karakter" src="ngapainjugadiklik.gif" alt="animation" oncontextmenu="return false;"/>
+                        <center style="background-color: var(--cerah);">
+                            <img id="karakter" src="ngapainjugadiklik.gif" alt="animation" oncontextmenu="return: false;"/>
+                        </center>
+
                     </div>
                     <div class="container-pertanyaan">
                         <p id="pertanyaan"></p>
@@ -24,9 +27,18 @@
                         <div id="row">
                             <input id="jawaban" placeholder="jawab dia di sini!"/>
                         </div>
-                        <div class="container-button">
-                            <button id="btnKirim" onclick="botStart()" class="animate__animated animate__pulse animate__infinite animate__slow">send</button>
-                        </div>
+                            <div class="container-button">
+                                <center style="background-color: var(--cerah);">
+                                    <button id="btnKirim" onclick="botStart()" class="animate__animated animate__pulse animate__infinite animate__slow">send</button>
+                                </center>
+
+                                <center style="background-color: var(--cerah);">
+                                    <button id="btnKembali" onclick="botStart()" class="animate__animated animate__pulse animate__infinite animate__slow" style="display: none; margin-top: 1em; height: auto; width: auto; padding: 5px;">kembali ke menu</button>
+                                </center>
+
+                            </div>
+                        
+
                     </div>
                 </div>
             </div>
