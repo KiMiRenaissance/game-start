@@ -1,0 +1,66 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: red;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#buttonImg {
+    display: none;
+    bottom: 0;
+    height: 100vh;
+}
+
+.img {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.container-p {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-content {
+    
+}
+
+.container-button {
+    display: flex;
+    justify-content: column;
+}
+
+#closeDialog {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#showDialog {
+    border: none;
+}
+
+#favDialog {
+    max-height: 70vh;
+    width: 70%;
+    position-area: center;
+    justify-content: center;
+    align-items: center;
+}

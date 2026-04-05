@@ -1,0 +1,81 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cerah);
+    font-family: serif;
+}
+
+body {
+    max-height: 100vh;
+    max-width: 100%;
+    display: flex;
+}
+
+.tes {
+    color: red;
+    position: fixed; 
+    bottom: 15; 
+    right: 15; 
+    background-color: transparent;
+}
+
+:root {
+    --gelap: #170b17;
+    --cerah: #fde2d7;
+    --cerah-semi: #e4b7b2;
+    --cerah-kegelap-gelapan: #855265;
+    --ungu-agak-gelap: #532c5b;
+    --ungu-gelap: #29174b;
+}
+
+.fcontainer {
+    background-color: transparent;
+}
+
+.gif {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    background-color: transparent;
+}
+
+#hasil {
+    color: (--gelap);
+    background-color: transparent;
+}
+
+#botSay {
+    background-color: transparent;
+    color: var(--gelap);
+}
+
+.pertanyaan {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 10px;
+    background-color: transparent;
+    width: 70%;
+}
+
+#soal {
+    background-color: var(--ungu-gelap);
+    border-radius: 3px;
+    padding: 5px;
+    color: var(--cerah);
+}
+
+#jawaban {
+    border: 3px solid var(--ungu-gelap);
+    border-radius: 3px;
+    margin: 5px;
+    width: 90%;
+    padding: .7em;
+}
+
+#button {
+    border: 3px solid var(--ungu-gelap);
+    border-radius: 3px;
+    color: var(--ungu-gelap);
+    padding: .2em;
+}

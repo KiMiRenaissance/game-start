@@ -1,0 +1,154 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    height: cover;
+    color: var(--gelap);
+}
+
+body {
+    background-color: blue;
+    background-image: url('bg2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    width: 100%;
+}
+
+:root {
+    --gelap: #170b17;
+    --cerah: #fde2d7;
+    --cerah-semi: #e4b7b2;
+    --cerah-kegelap-gelapan: #855265;
+    --ungu-agak-gelap: #532c5b;
+    --ungu-gelap: #29174b;
+}
+
+.parallax {
+    background-image: url('bg1.png');
+}
+
+.lawan {
+    height: 40vh;
+    opacity: 75%;
+}
+
+#pilihan button {
+    margin: 60px;
+    padding: 10px 20px;
+    display: flex;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+#skor {
+    
+}
+
+.logo {
+    height: 115%;
+    width: 115%;
+}
+
+#berkas {
+    margin-top: 20px;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+#efekNyerang {
+    width: 50%;
+    border: 3px solid var(--gelap);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: 3px solid var(--gelap);
+}
+
+.div {
+    flex: 1;
+}
+
+.bar {
+    margin-top: auto;
+}
+
+#berkas {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+}
+
+#hasil {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+    width: 80%;
+    border-end-end-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+#hasil-akhir {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+}
+
+#ulangi {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+    margin: 5px;
+}
+
+#api {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+#air {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+    display: flex;
+    position: absolute;
+    left: 30%;
+}
+
+#tanah {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah-kegelap-gelapan);
+    display: flex;
+    left: 60%;
+}
+
+p {
+    color: var(--cerah-kegelap-gelapan);
+    background-color: var(--gelap);
+    width: 80%;
+    border-end-end-radius: 3px;
+    border-end-start-radius: 3px;
+    border: 1px solid var(--cerah-kegelap-gelapan);
+}
+
+#hp-kamu {
+    color: red;
+}
+
+#hp-komputer {
+    color: red;
+}

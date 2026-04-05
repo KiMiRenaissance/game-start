@@ -1,0 +1,136 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.fcontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.judul {
+    font-family: serif;
+    color: maroon;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.bar {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 37%;
+    align-items: center;
+}
+
+#mulai, #konteks, #website, #dukung {
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: fantasy;
+    z-index: 1;
+    font-size: 80%;
+}
+
+#mulai:hover, #konteks:hover, #website:hover, #dukung:hover {
+    color: red;
+    transform: rotate(3deg);
+    transition: .3s ease-in-out;
+}
+
+.catatan {
+    color: maroon;
+    opacity: 75%;
+    font-size: 50%;
+    margin-top: -13px;
+    
+}
+
+.video {
+    position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#dukungan {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.container-dukungan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    width: 60%;
+    height: 70vh;
+    gap: 10px;
+}
+
+.p-dukungan {
+    color: red;
+    opacity: 58%;
+    font-family: fantasy;
+    background-color: white;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+    width: 110%;
+}
+
+#donate1, #donate2 {
+    display: flex;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: maroon solid 3px;
+    background-color: #f37782;
+    color: maroon;
+    opacity: 85%;
+    margin: 3px;
+    width: 70%;
+}
+
+#donate1:hover, #donate2:hover {
+    width: 75%;
+    transition: .2s ease-in-out;
+    font-size: 90%;
+}
+
+#kembali {
+    border: white solid 1.5px;
+    background-color: transparent;
+    color: white;
+    margin: 1em;
+    padding: 3px;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    font-size: 70%;
+}

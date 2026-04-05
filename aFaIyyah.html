@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="aFaIyyah.css" />
+        <link rel="shortcut icon" href="./icon.jpg" type="img/x-icon" />
+        <title>Game KiMi Renaissance</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        
+        <center style="display: none; background-color: transparent;" id="l">
+            <img src="l.png" alt="l" style="background-color: transparent" height="90vh" oncontextmenu="return: false;" />
+        </center>
+        
+        <center style="display: none; background-color: transparent;" id="saha">
+            <img src="saha.png" alt="l" style="background-color: transparent" height="90vh" oncontextmenu="return: false;" />
+        </center>
+        
+        <div id="blank" style="width: 100%; height: 100vh; background-color: black; display: none; position: center;">
+            <center style="background-color: transparent;"><h5 id="teksAkhir" style="color: white; background-color: transparent; position: center;"></h5></center>
+        </div>
+    <div class="fcontainer" id="fcontainer">
+            
+            <!-- <content> -->
+            
+        <div class="container">
+            <div class="wrapper">
+                <div class="container-karakter">
+                    <center style="background-color: var(--cerah);" id="bug">
+                        <img id="karakter" src="karakter.png" alt="animation" oncontextmenu="return: false;"/>
+                        <img id="nangis" src="nangis.png" alt="animation" oncontextmenu="return: false;" style="display: none;"/>
+                        <img id="ngeri" src="ngeri.png" alt="animation" oncontextmenu="return: false;" style="display: none;"/>
+                        <img id="mengerikan" src="mengerikan.png" alt="animation" oncontextmenu="return: false;" style="display: none;"/>
+                        <img id="who" src="T.png" alt="animation" oncontextmenu="return: false;" style="display: none;"/>
+                        <h2 id="soal" style="background-color: transparent; color: var(--gelap);"></h2>
+                    </center>
+
+                </div>
+                <div class="container-pertanyaan" id="gitulah">
+                    <p id="botSay" style="display: none;"></p>
+                    <p id="pertanyaan" style="display: none;"></p>
+                </div>
+                <div class="menjawab" style="margin: 10px;">
+                    <div id="row">
+                        <input id="jawaban" placeholder="jawab dia di sini!" type="number"/>
+                    </div>
+                        <div class="container-button">
+                            <center style="background-color: var(--cerah);">
+                                <button id="btnKirim" onclick="cekJawaban()" class="animate__animated animate__pulse animate__infinite animate__slow">send</button>
+                            </center>
+
+
+                        </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        
+        <script src="aFaIyyah.js">
+            
+        </script>
+        
+        <!-- <content end> -->
+        
+        <!-- <footer> -->
+        
+        <div class="container-footer" id="footer">
+            
+            <footer class="footer" id="afooter">
+                <p class="p-footer" id="bfooter">&copy; 2026 KiMi Renaissance</p>
+            </footer>
+            
+        </div>
+    
+        <!-- <footer end> -->
+            
+    </div>
+    </body>
+</html>

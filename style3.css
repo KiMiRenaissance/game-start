@@ -1,0 +1,178 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    height: cover;
+    color: red;
+}
+
+body {
+    background-color: maroon;
+    background-image: url('bg3.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height: 100vh;
+    width: 100%;
+}
+
+
+:root {
+    --gelap: #170b17;
+    --cerah: #fde2d7;
+    --cerah-semi: #e4b7b2;
+    --cerah-kegelap-gelapan: #855265;
+    --ungu-agak-gelap: #532c5b;
+    --ungu-gelap: #29174b;
+}
+
+.parallax {
+    background-image: url('bg1.png');
+}
+
+.gitu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.lawan {
+    height: 35%;
+    display: flex;
+}
+
+#pilihan button {
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+    width: 20vh;
+    height: auto;
+    bottom: 20vh;
+}
+
+.logo {
+    height: 115%;
+    width: 115%;
+}
+
+#berkas {
+    margin-top: 20px;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+#efekNyerang {
+    width: 100%;
+    border: 3px solid red;
+    position: fixed;
+    z-index: 10;
+    margin-top: -25%;
+    margin-left: 50%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: 3px solid red;
+}
+
+.div {
+    margin-top: 1em;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+
+.bar {
+    margin-top: auto;
+}
+
+#berkas {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+}
+
+#hasil {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    width: 80%;
+    border-end-end-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+#hasil-akhir {
+    color: maroon;
+    background-color: red;
+}
+
+#ulangi {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    margin: 5px;
+}
+
+#api {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    display: flex;
+    position: absolute;
+    left: 60%;
+}
+
+#air {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    display: flex;
+    position: absolute;
+    left: 40%;
+}
+
+#tanah {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    display: flex;
+    position: absolute;
+    left: 20%;
+}
+
+#udara {
+    color: maroon;
+    background-color: red;
+    border: 3px solid maroon;
+    display: flex;
+    position: absolute;
+}
+
+p {
+    color: maroon;
+    background-color: red;
+    width: 80%;
+    border-end-end-radius: 3px;
+    border-end-start-radius: 3px;
+    border: 1px solid maroon;
+}
+
+#hp-kamu {
+    color: white;
+}
+
+#hp-komputer1 {
+    color: white;
+}
+
+#hp-komputer2 {
+    color: white;
+}

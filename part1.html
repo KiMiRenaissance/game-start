@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="part1.css" />
+        <link rel="shortcut icon" href="./icon.jpg" type="img/x-icon" />
+        <title>Game KiMi Renaissance</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    </head>
+    <body>
+        <div class="fcontainer">
+            
+            <!-- <content> -->
+            
+            <div class="container">
+                <div class="wrapper">
+                    <div class="container-karakter">
+                        <center style="background-color: var(--cerah);">
+                            <img id="karakter" src="ngapainjugadiklik.gif" alt="animation" oncontextmenu="return: false;"/>
+                        </center>
+
+                    </div>
+                    <div class="container-pertanyaan">
+                        <p id="pertanyaan"></p>
+                    </div>
+                    <div class="menjawab" style="margin: 10px;">
+                        <div id="row">
+                            <input id="jawaban" placeholder="jawab dia di sini!"/>
+                        </div>
+                            <div class="container-button">
+                                <center style="background-color: var(--cerah);">
+                                    <button id="btnKirim" onclick="botStart()" class="animate__animated animate__pulse animate__infinite animate__slow">send</button>
+                                </center>
+
+                                <center style="background-color: var(--cerah);">
+                                    <button id="btnKembali" onclick="botStart()" class="animate__animated animate__pulse animate__infinite animate__slow" style="display: none; margin-top: 1em; height: auto; width: auto; padding: 5px;">kembali ke menu</button>
+                                </center>
+
+                            </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+            
+            <script src="part1.js">
+                
+            </script>
+            
+            <!-- <content end> -->
+            
+            <!-- <footer> -->
+            
+            <div class="container-footer">
+                
+                <footer class="footer">
+                    <p class="p-footer">&copy; 2026 KiMi Renaissance</p>
+                </footer>
+                
+            </div>
+            
+            <!-- <footer end> -->
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    height: cover;
+    color: var(--gelap);
+}
+
+body {
+    background-color: purple;
+    background-image: url('bg1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-height: 100vh;
+}
+
+:root {
+    --gelap: #170b17;
+    --cerah: #fde2d7;
+    --cerah-semi: #e4b7b2;
+    --cerah-kegelap-gelapan: #855265;
+    --ungu-agak-gelap: #532c5b;
+    --ungu-gelap: #29174b;
+}
+
+.parallax {
+    background-image: url('bg1.png');
+}
+
+.lawan {
+    height: 40vh;
+    opacity: 75%;
+}
+
+#pilihan button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+}
+
+#berkas {
+    margin-top: 20px;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+
+#efekNyerang {
+    width: 50%;
+    border: 3px solid var(--gelap);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    border: 3px solid var(--gelap);
+}
+
+.div {
+    flex: 1;
+}
+
+.bar {
+    margin-top: auto;
+}
+
+#berkas {
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+}
+
+#hasil {
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+    width: 80%;
+    border-end-end-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+#hasil-akhir {
+    color: var(--cerah);
+    background-color: var(--gelap);
+}
+
+#ulangi {
+    display: flex;
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+    margin: 5px;
+}
+
+#gunting {
+    display: flex;
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+}
+
+#kertas {
+    display: flex;
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+}
+
+#batu {
+    color: var(--cerah);
+    background-color: var(--gelap);
+    border: 3px solid var(--cerah);
+}
+
+p {
+    color: var(--cerah);
+    background-color: var(--gelap);
+    width: 80%;
+    border-end-end-radius: 3px;
+    border-end-start-radius: 3px;
+    border: 1px solid var(--cerah);
+}
