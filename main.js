@@ -27,13 +27,13 @@ mulai.addEventListener('click', function() {
 
 konteks.addEventListener('click', function() {
     setTimeout(function() {
-        window.location.href = 'https://whoproject.vercel.app';
+        window.open('https://whoproject.vercel.app', '_blank');
     }, 1000);
 });
 
 website.addEventListener('click', function() {
     setTimeout(function() {
-        window.location.href = 'https://kimirenai.vercel.app';
+        window.open('https://kimirenai.vercel.app', '_blank');
     }, 1000);
 });
 
@@ -51,12 +51,12 @@ kembali.addEventListener('click', function() {
 
 donate1.addEventListener('click', function() {
     setTimeout(function() {
-        window.location.href = 'https://sociabuzz.com/milan_o391/tribe';
+        window.open('https://sociabuzz.com/milan_o391/tribe', '_blank');
     }, 250);
 });
 
 donate2.addEventListener('click', function() {
     setTimeout(function() {
-        window.location.href = 'https://trakteer.id/kimi_renaissance';
+        window.open('https://trakteer.id/kimi_renaissance', '_blank');
     }, 250);
 });
