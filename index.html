@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <link rel="shortcut icon" href="icon.jpg" type="image/x-icon" />
     <title>WHO? Siapa nama mereka?</title>
+
 </head>
 <body>
     
@@ -42,5 +43,13 @@
         </audio>
     </div>
     <script src="main.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+ history saat halaman dimuat
+    history.pushState(null, null, location.href);
+ kembali (event popstate)
+    window.addEventListener('popstate', function(event) {
+        history.pushState(null, null, location.href);
+    });
+</script>
 </body>
 </html>
