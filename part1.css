@@ -50,7 +50,7 @@ button {
     color: var(--cerah);
     border-radius: 3px;
     height: 2.5vh;
-    font-size: 1.4vh;
+    font-size: 3vh;
 }
 
 input {
@@ -60,11 +60,11 @@ input {
     padding: .3vh;
     height: 150%;
     border-radius: 3px;
-    font-size: 1vh;
+    font-size: 3vh;
 }
 
 #btnKirim {
-    font-size: 2px;
+    font-size: 3vh;
     padding: 10px;
     width: 25em;
 }
