@@ -31,7 +31,7 @@ function botStart() {
                 btnKirim.innerHTML = 'ya, aku suka mendengar namaku.';
                 userData.push(jawaban.value)
                 jawaban.value = "ya, aku suka mendengar namaku."
-                btnKirim.style.fontSize = ".6vh"
+                btnKirim.style.fontSize = "3vh"
                 btnKirim.style.width = "auto";
                 btnKirim.style.height = "auto";
                 btnKirim.style.padding = "5px";
@@ -43,7 +43,7 @@ function botStart() {
                 userData.push(jawaban.value)
                 jawaban.value = "Mungkin kegiatan menyenangkan seperti, menggambar."
                 btnKirim.innerHTML = 'Mungkin kegiatan menyenangkan seperti, menggambar.';
-                btnKirim.style.fontSize = ".6vh";
+                btnKirim.style.fontSize = "3vh";
             }, [1500])
     } else if (init === 3) {
         botDelay({ nyocot: jawaban.value })
@@ -52,7 +52,7 @@ function botStart() {
                 btnKirim.innerHTML = 'Tunggu, apa maksudmu itu!?';
                 userData.push(jawaban.value)
                 jawaban.value = "Tunggu, apa maksudmu itu!?"
-                btnKirim.style.fontSize = ".6vh"
+                btnKirim.style.fontSize = "3vh"
             }, [1500])
     } else if (init === 4) {
         botDelay({ gitulah: jawaban.value })
@@ -63,7 +63,7 @@ function botStart() {
                 btnKirim.innerHTML = 'ini usiaku';
                 userData.push(jawaban.value)
                 jawaban.value = ""
-                btnKirim.style.fontSize = ".3em"
+                btnKirim.style.fontSize = ".9em"
             }, [1500])
     } else if (jawaban.value <= 15) {
         containerJawaban.style.display = "none";
@@ -86,7 +86,7 @@ function botStart() {
                 userData.push(jawaban.value)
                 jawaban.type = 'text';
                 jawaban.value = "Okie dokie...";
-                btnKirim.style.fontSize = ".8vh";
+                btnKirim.style.fontSize = "3vh";
             }, [1500])
     } else if (init === 6) {
         finishing({ nya: jawaban.value })
