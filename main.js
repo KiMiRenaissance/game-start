@@ -28,13 +28,13 @@ mulai.addEventListener('click', function() {
 konteks.addEventListener('click', function() {
     setTimeout(function() {
         window.open('https://whoproject.vercel.app', '_blank');
-    }, 1000);
+    }, 250);
 });
 
 website.addEventListener('click', function() {
     setTimeout(function() {
         window.open('https://kimirenai.vercel.app', '_blank');
-    }, 1000);
+    }, 250);
 });
 
 dukung.addEventListener('click', function() {
