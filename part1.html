@@ -63,5 +63,13 @@
             <!-- <footer end> -->
             
         </div>
+<script type="text/javascript">
+ history saat halaman dimuat
+    history.pushState(null, null, location.href);
+ kembali (event popstate)
+    window.addEventListener('popstate', function(event) {
+        history.pushState(null, null, location.href);
+    });
+</script>
     </body>
 </html>
